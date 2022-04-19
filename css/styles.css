@@ -394,6 +394,51 @@ padding-left: 0;
     margin-top: 9px;
 }
 
+
+.join {
+    color: #ffffff;
+    font-family: Roboto;
+    font-style: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    margin-left: 70px;
+}
+
+.footer-soc {
+    
+}
+.join-soc-list {
+    display: flex;
+    ;   
+}
+
+.join-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.1)
+    ;
+}
+
+.join-soc-icon {
+    fill:#FFFFFF ;
+}
+
+.join-soc-link:hover, 
+.join-soc-link:focus {
+    background-color: var(--accent-color);
+}
+
+.join-soc-link:hover .team-soc-icon{
+    fill: #FFFFFF;
+}
+
 /* Portfolio styles */
 
 .visually-hidden {
