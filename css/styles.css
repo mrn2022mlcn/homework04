@@ -34,7 +34,6 @@ padding-left: 0;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid tomato;
 }
 /* Шапка */
 
@@ -214,36 +213,22 @@ fill: var(--accent-color);
 .benefits-item:not(:last-child){
     margin-right: 30px;
 }
-
-/* .benefits-item::before {
-    display: block;
-    content:'';
+.benefits-logo-list {
+    display: flex;
+    justify-content: center;
+}
+.benefits-logo-item {
+    width: 270px;
     height: 120px;
-    outline: 1px solid tomato;
-   
-    background-color: #F5F4FA;
     border-radius: 4px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}  
-
-.icon-antenna::before {
-    background-image: ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F4Fa;
 }
-
-.icon-clock::before {
-    background-image: ;
+.benefits-logo-item:not(:first-child){
+    margin-left: 30px;
 }
-
-.icon-diagram::before {
-    background-image: ;
-}
-
-.icon-astronaut::before {
-    background-image: ;
-} */
-
 .benefits-title {
     margin-bottom: 10px;
     margin-top: 30px;
@@ -378,6 +363,12 @@ fill: var(--accent-color);
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.clients-list {
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+}
+
 
 .clients-title {
     font-weight: 700;
@@ -389,9 +380,6 @@ fill: var(--accent-color);
     margin-bottom: 50px; 
 }
 
-.clients-list {
-    display:flex;
-}
 .clients-item {
     width: 170px;
 }
@@ -404,8 +392,6 @@ fill: var(--accent-color);
     display: block;
     content:'';
     height: 92px;
-    outline: 1px solid tomato;
-   
     background-color: #F5F4FA;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
@@ -414,33 +400,23 @@ fill: var(--accent-color);
     background-position: center;
 }  
 
-.icon-ya {
-
-}
-.icon-tagline {
-
-}
-.icon-company {
-
-}
-.icon-foster {
-
-}
-.icon-brand {
-
-}
-.icon-tag {
-
+.clients-item:hover {
+fill: #2196f3;
 }
 
 .clients-link {
-    fill:#AFB1B8 ;
+        fill:#AFB1B8 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 16px 32px;
 }
 
 .clients-link:hover, 
 .clients-link:focus {
-background-color: var(--accent-color);
+fill: var(--accent-color);
 }
+
 
 
 /* Footer */
