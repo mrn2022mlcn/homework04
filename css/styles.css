@@ -399,7 +399,9 @@ fill: var(--accent-color);
     background-size: contain;
     background-position: center;
 }  
-
+.clients-item:hover {
+    border: 1px solid #2196f3;
+}
 .clients-link {
     fill:#AFB1B8 ;
     display: flex;
@@ -410,13 +412,9 @@ fill: var(--accent-color);
 
 .clients-link:hover, 
 .clients-link:focus {
-fill: var(--accent-color);
+fill: var(--accent-color)
 }
 
-/* .clients-icon {
-    fill: currentColor
-} */
-/* Footer */
 
 .footer {
     padding-top: 60px;
