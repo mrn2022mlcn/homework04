@@ -116,33 +116,28 @@ padding-left: 0;
 }
 .contacts {
     display: flex;
+    margin-left: auto;
+}
+.contacts-item + .contacts-item {
+    margin-left: 30px;
 }
 
-.icon-mail::before {
-    display: block;
-    content:'';
+.icon-mail {
+    width: 16px;
     height: 12px;
+    margin-right: 10px;
     color: var(--primary-text-color);
-    background-image: ;
-    background-color: #F5F4FA;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}  
-
-.icon-phone::before {
-    display: block;
-    content:'';
-    height: 16px;
-    color: var(--primary-text-color);
-    background-image: ;
-    background-color: #F5F4FA;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
 }
 
-
+.icon-tel {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    color: var(--primary-text-color);
+}
+.contacts:hover {
+fill: var(--accent-color);
+}
 
 /* Герой */
 
@@ -153,7 +148,7 @@ padding-left: 0;
 
 .hero .container {
     display: block; 
-}
+} 
 
 .hero-title {
     margin-right: auto;
@@ -220,7 +215,7 @@ padding-left: 0;
     margin-right: 30px;
 }
 
-.benefits-item::before {
+/* .benefits-item::before {
     display: block;
     content:'';
     height: 120px;
@@ -247,7 +242,7 @@ padding-left: 0;
 
 .icon-astronaut::before {
     background-image: ;
-}
+} */
 
 .benefits-title {
     margin-bottom: 10px;
