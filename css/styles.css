@@ -400,16 +400,12 @@ fill: var(--accent-color);
     background-position: center;
 }  
 
-.clients-item:hover {
-fill: #2196f3;
-}
-
 .clients-link {
-        fill:#AFB1B8 ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 16px 32px;
+    fill:#AFB1B8 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 32px;
 }
 
 .clients-link:hover, 
@@ -417,8 +413,9 @@ fill: #2196f3;
 fill: var(--accent-color);
 }
 
-
-
+/* .clients-icon {
+    fill: currentColor
+} */
 /* Footer */
 
 .footer {
