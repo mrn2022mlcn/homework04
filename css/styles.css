@@ -401,10 +401,6 @@ fill: var(--accent-color);
     background-size: contain;
     background-position: center;
 }  
-.clients-item:hover,
-.clients-item:focus {
-    border: 1px solid #2196f3;
-}
 
 .clients-link {
     fill:#AFB1B8 ;
@@ -413,7 +409,10 @@ fill: var(--accent-color);
     align-items: center;
     margin: 16px 32px;
 }
-
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid #2196f3;
+}
 .clients-link:hover, 
 .clients-link:focus {
 fill: var(--accent-color)
