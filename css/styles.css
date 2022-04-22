@@ -73,15 +73,14 @@ padding-left: 0;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding-right: 50px;
 }
 
 .site-nav .header-item:hover,
 .site-nav .header-item:focus {
    color: var(--accent-color);
 }
-.header-item{
-    margin-right: 30px;
+.site-nav-item{
+    margin-right: 50px;
 }
 
 .contacts {
@@ -134,10 +133,11 @@ padding-left: 0;
     margin-right: 10px;
     color: var(--primary-text-color);
 }
-.contacts:hover {
+.header-item:hover,
+.header-item:focus {
 fill: var(--accent-color);
 }
-
+    
 /* Герой */
 
 .hero {
@@ -325,6 +325,7 @@ fill: var(--accent-color);
 .team-container {
     padding-top: 30px;
     padding-bottom: 30px;
+    background-color: var(--primary-bg-color);
 } 
 
 .team-soc-list {
@@ -392,7 +393,6 @@ fill: var(--accent-color);
     display: block;
     content:'';
     height: 92px;
-    background-color: #F5F4FA;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     background-repeat: no-repeat;
@@ -482,14 +482,10 @@ fill: var(--accent-color)
     display: flex;  
 }
 .address-content {
-    padding-top: 60px;
-    padding-bottom: 60px;
     width:calc(25% - 15px);
 }
 
 .footer-soc {
-    padding-top: 60px;
-    padding-bottom: 60px;
     flex-grow: 1;
 }
 
