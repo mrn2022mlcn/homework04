@@ -351,9 +351,11 @@ fill: var(--accent-color);
     background-color: var(--accent-color);
 }
 
-.team-soc-link:hover .team-soc-icon{
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
     fill: #FFFFFF;
 }
+
 .shadow{
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
@@ -399,9 +401,11 @@ fill: var(--accent-color);
     background-size: contain;
     background-position: center;
 }  
-.clients-item:hover {
+.clients-item:hover,
+.clients-item:focus {
     border: 1px solid #2196f3;
 }
+
 .clients-link {
     fill:#AFB1B8 ;
     display: flex;
@@ -414,7 +418,6 @@ fill: var(--accent-color);
 .clients-link:focus {
 fill: var(--accent-color)
 }
-
 
 .footer {
     padding-top: 60px;
