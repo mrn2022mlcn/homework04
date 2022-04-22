@@ -415,7 +415,7 @@ fill: var(--accent-color);
 }
 .clients-link:hover, 
 .clients-link:focus {
-fill: var(--accent-color)
+fill: var(--accent-color);
 }
 
 /* Футер */
